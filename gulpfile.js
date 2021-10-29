@@ -15,16 +15,16 @@ var path = {
     php: 'dev/assets/php/'
   },
   dist: {
-    html: 'dist/',
-    js: 'dist/assets/js/',
-    css: 'dist/assets/css/',
-    style: 'dist/assets/css/',
-    fontcss: 'dist/assets/css/fonts/',
-    colorcss: 'dist/assets/css/colors/',
-    img: 'dist/assets/img/',
-    fonts: 'dist/assets/fonts/',
-    media: 'dist/assets/media/',
-    php: 'dist/assets/php/'
+    html: 'docs/',
+    js: 'docs/assets/js/',
+    css: 'docs/assets/css/',
+    style: 'docs/assets/css/',
+    fontcss: 'docs/assets/css/fonts/',
+    colorcss: 'docs/assets/css/colors/',
+    img: 'docs/assets/img/',
+    fonts: 'docs/assets/fonts/',
+    media: 'docs/assets/media/',
+    php: 'docs/assets/php/'
   },
   src: {
     html: ['src/**/*.html', '!src/partials/**/*.html', '!src/assets/php/**/*.html'],
@@ -57,7 +57,7 @@ var path = {
   },
   clean: {
     dev: 'dev/*',
-    dist: 'dist/*',
+    dist: 'docs/*',
   }
 };
 
@@ -89,7 +89,7 @@ var gulp = require('gulp'),
 /* Server */
 var config = {
     server: {
-        baseDir: './dist'
+        baseDir: './docs'
     },
     notify: false
 };
