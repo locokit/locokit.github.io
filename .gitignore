@@ -6,3 +6,5 @@ node_modules/
 
 # Nova
 .nova/
+
+.DS_Store
